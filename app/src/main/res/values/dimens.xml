@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="shop_name">30sp</dimen>
+    <dimen name="location_name">25sp</dimen>
+    <dimen name="open_times">25sp</dimen>
+    <dimen name="mon_fri">20sp</dimen>
+    <dimen name="sat_sun">20sp</dimen>
+    <dimen name="contact">25sp</dimen>
+    <dimen name="phone">20sp</dimen>
+    <dimen name="number">20sp</dimen>
+    <dimen name="email">20sp</dimen>
+    <dimen name="e_add">20sp</dimen>
+</resources>

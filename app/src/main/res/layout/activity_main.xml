@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.teatime.MainActivity">
+
+    <View
+        android:id="@+id/rectangle_at_the_top"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#81C784" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:src="@drawable/tea" />
+
+    <ImageView
+        android:id="@+id/tea_image"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/rectangle_at_the_top"
+        android:scaleType="centerCrop"
+        android:src="@drawable/teatwo" />
+
+    <TextView
+        android:id="@+id/shop_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/tea_image"
+        android:background="#81C784"
+        android:gravity="center"
+        android:text="@string/shop_name"
+        android:textColor="#000000"
+        android:textSize="@dimen/shop_name" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/drinking_tea"
+        android:layout_above="@+id/rectangle_at_the_bottom"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/shop_name"
+        android:alpha=".65" />
+
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/shop_name"
+        android:layout_margin="10dp"
+        android:src="@drawable/location" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/shop_name"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/location"
+        android:text="@string/location_name"
+        android:textSize="@dimen/location_name"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/open_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_access_time_black_24dp" />
+
+    <TextView
+        android:id="@+id/mon_fri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/open_times"
+        android:text="@string/mon_fri"
+        android:padding="10dp"
+        android:textSize="@dimen/mon_fri"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/sat_sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mon_fri"
+        android:layout_marginLeft="60dp"
+        android:text="@string/sat_sun"
+        android:padding="10dp"
+        android:textSize="@dimen/sat_sun"
+        android:textColor="#000000"/>
+
+    <View
+        android:id="@+id/rectangle_at_the_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sat_sun"
+        android:background="#81C784" />
+
+    <ImageView
+        android:id="@+id/phone_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/rectangle_at_the_bottom"
+        android:padding="10dp"
+        android:src="@drawable/ic_call_black_24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/rectangle_at_the_bottom"
+        android:layout_toRightOf="@id/phone_icon"
+        android:text="@string/number"
+        android:textSize="@dimen/number"
+        android:padding="10dp"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/email_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_icon"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_email_black_24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_icon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/email_icon"
+        android:text="@string/e_add"
+        android:textSize="@dimen/e_add"
+        android:textColor="#000000"/>
+
+</RelativeLayout>

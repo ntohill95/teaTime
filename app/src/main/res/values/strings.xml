@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TeaTime</string>
+    <string name="shop_name"><b>Tea Time</b></string>
+    <string name="location_name">123 Main Road</string>
+    <string name="open_times"><b><u>Opening Times</u></b></string>
+    <string name="mon_fri">Monday to Friday 10am-5pm </string>
+    <string name="sat_sun">Saturday to Sunday 9am-6pm</string>
+    <string name="contact"><b><u>Contact Information</u></b></string>
+    <string name="phone">Phone Number:</string>
+    <string name="number">07123456789</string>
+    <string name="email">Email:</string>
+    <string name="e_add">teatime@email.com</string>
+</resources>
