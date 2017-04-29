@@ -12,4 +12,7 @@
     <dimen name="number">20sp</dimen>
     <dimen name="email">20sp</dimen>
     <dimen name="e_add">20sp</dimen>
+    <dimen name="contact_margin">10dp</dimen>
+    <dimen name="contact2_margin">20dp</dimen>
+    <dimen name="email_margin">5dp</dimen>
 </resources>
